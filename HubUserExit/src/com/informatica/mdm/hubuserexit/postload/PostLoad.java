@@ -3312,7 +3312,8 @@ if (stgTablename == null) {
 					}
 					log.info("Begin DB C_XO_PMNT_DTLS_ACCU_TECH Connection creation ");
 					//Ankit Date:06/11/2025
-				/*	
+				/*
+				 * **************
 					Context ctx = null;
 					Connection con = null;
 					Statement stmt = null;
@@ -3338,7 +3339,8 @@ if (stgTablename == null) {
 					finally{
 						try { stmt.close(); } catch (Exception e) { log.info("C_XO_PMNT_DTLS_ACCU_TECH in DB connection closure stmt " + e); }
 						try { con.close(); } catch (Exception e) { log.info("C_XO_PMNT_DTLS_ACCU_TECH in DB connection closure con " + e); }	
-					}*/
+					}*******************
+					*/
 				DatabaseConnection dbHandler = new DatabaseConnection();
 				Statement stmt = null;
 				try {
