@@ -27,7 +27,7 @@ public class AssociateContact {
 			ChildTwo = stmt.executeQuery(
 					"select X_PRTY_FK AS CHPRTYFK from SUPPLIER_HUB.C_XT_LKP_PMNT_CNCT WHERE X_CNCT_ROW_ID ='"
 							+ rowIdobject + "'");
-			// print the query, log is not entering in while loop updating
+			// print the query, log is not entering in while loop updating***********
 			String childPrtyFk = null;
 			log.info("Entering in while loop.");
 			log.info("CHPRTYFK -  " + childPrtyFk);
